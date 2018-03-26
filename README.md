@@ -6,7 +6,7 @@ The goal is to prepare tidy data that can be used for later analysis.
 
 ## Content
 The content of this repository is : 
-1) a tidy data set called [tidy_dataset.csv](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.csv) obtained from the original data set described below
+1) a tidy data set called [tidy_dataset.txt](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.txt) obtained from the original data set described below. In addition a csv file [tidy_dataset.csv](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.csv) is also provided.
 2) a R script [run_analysis.R](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/run_analysis.R) that does all the data sets treatments
 3) a code book called [CodeBook.md](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/CodeBook.md) that describes the variables, the data, and any transformations or work performed to clean up the data.
 
