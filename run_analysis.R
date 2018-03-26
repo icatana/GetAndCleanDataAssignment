@@ -101,6 +101,9 @@ merged_set <- select(merged_set, one_of(subject_column_name, activity_column_nam
 tidy_dataset <- melt(merged_set, id = c(subject_column_name, activity_column_name)) 
 tidy_dataset <- dcast(tidy_dataset, Activity + Subject ~ variable, mean)
 
-# Save the tidy data set into a CSV file to be uploaded into Github repo 
+# Save the tidy data set into a TXT file
+write.table(tidy_dataset, file = "tidy_dataset.txt", row.names = FALSE)
+
+# Save the tidy data set into a CSV file
 write.table(tidy_dataset, file = "tidy_dataset.csv", sep = ",", row.names = FALSE)
 
