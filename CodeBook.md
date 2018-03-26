@@ -96,7 +96,7 @@ tBodyGyroJerkMean
 The complete list of variables of each feature vector is available in 'features.txt'
 
 ## Transformations
-As mentionned in R script functionalities, the main transformations are listed here below:
+As mentionned in [run_analysis.R](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/run_analysis.R) script functionalities, the main transformations are listed here below:
 * Merging into one dataset of the training and the test sets.
 * Extraction of the measurements on the mean and standard deviation for each measurement.
 * Use of descriptive activity names and labels to increase readability of the data set.
