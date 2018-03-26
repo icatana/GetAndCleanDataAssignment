@@ -113,7 +113,8 @@ As mentionned in [run_analysis.R](https://github.com/icatana/GetAndCleanDataAssi
 8) Merge the training and the test sets using rbind function.
 9) Select only mean and standard deviation columns as well as subject and activity
 10) Creates a second, independent tidy data set with the average of each variable for each activity and each subject
-11) Save the tidy data set into a CSV file called [tidy_dataset.csv](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.csv)
+11) Save the tidy data set into a txt file called [tidy_dataset.txt](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.txt)
+12) In addition to the txt file, a tidy data set in CSV format is also generated in the file called [tidy_dataset.csv](https://github.com/icatana/GetAndCleanDataAssignment/blob/master/tidy_dataset.csv)
 
 
 
