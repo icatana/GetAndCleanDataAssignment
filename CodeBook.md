@@ -97,10 +97,11 @@ The complete list of variables of each feature vector is available in 'features.
 
 ## Transformations
 As mentionned in R script functionalities, the main transformations are listed here below:
-1) Merging into one dataset of the training and the test sets.
-2) Extraction of the measurements on the mean and standard deviation for each measurement.
-3) Use of descriptive activity names and labels to increase readability of the data set.
-4) Creation of an independent tidy data set with the average of each variable for each activity and each subject.
+* Merging into one dataset of the training and the test sets.
+* Extraction of the measurements on the mean and standard deviation for each measurement.
+* Use of descriptive activity names and labels to increase readability of the data set.
+* Creation of an independent tidy data set with the average of each variable for each activity and each subject.
 
+### Algorithm
 
 
