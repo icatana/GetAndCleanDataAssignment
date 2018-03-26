@@ -6,9 +6,9 @@ The goal is to prepare tidy data that can be used for later analysis.
 
 ## Content
 The content of this repository is : 
-1) a tidy data set called tidy_dataset.csv obtained from the original data set described below
-2) a R script run_analysis.R that does all the data sets treatments
-3) a code book called CodeBook.md that describes the variables, the data, and any transformations or work performed to clean up the data.
+1) a tidy data set called [tidy_dataset.csv](https://github.com/icatana/GetAndCleanDataAssignment/tidy_dataset.csv) obtained from the original data set described below
+2) a R script [run_analysis.R](https://github.com/icatana/GetAndCleanDataAssignment/run_analysis.R) that does all the data sets treatments
+3) a code book called [CodeBook.md](https://github.com/icatana/GetAndCleanDataAssignment/CodeBook.md) that describes the variables, the data, and any transformations or work performed to clean up the data.
 
 ## Description
 
@@ -24,7 +24,7 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ### R script functionality
-The R script run_analysis.R does the following:
+The R script [run_analysis.R](https://github.com/icatana/GetAndCleanDataAssignment/run_analysis.R) does the following:
 1) Merges the training and the test sets to create one data set.
 2) Extracts only the measurements on the mean and standard deviation for each measurement.
 3) Uses descriptive activity names to name the activities in the data set.
