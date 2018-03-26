@@ -103,5 +103,18 @@ As mentionned in R script functionalities, the main transformations are listed h
 * Creation of an independent tidy data set with the average of each variable for each activity and each subject.
 
 ### Algorithm
+1) Load features list and activities labels into memory. A function was created that loads a file into a dataframe. Inputs are the name of the file to load ant the list of sub-directories.
+2) Format features names. A function was created that removes characters different than letters and numbers.
+3) Load the training subjects into memory and change the column name to 'Subject'.
+4) Load the training data set into memory and associate the column names with the features names from step n°2
+5) Load the training activities into memory and associate the activity numbers with labels. Also change the column name of the data frame to 'Activity'.
+6) Combine the training data set with corresponding subjects and activies into one data frame using cbind function.
+7) Do the previous four steps for test measures.
+8) Merge the training and the test sets using rbind function.
+9) Select only mean and standard deviation columns as well as subject and activity
+10) Creates a second, independent tidy data set with the average of each variable for each activity and each subject
+11) Save the tidy data set into a CSV file
+
+
 
 
